@@ -5,5 +5,5 @@ plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 minimal_mistakes_skin: "dark"
-baseurl: "/TFG-a_salarich"
+baseurl: "/TFG-a_salarich-ca"
 url: "https://adrichs.github.io"
