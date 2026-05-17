@@ -13,7 +13,7 @@ header:
 excerpt: "Millorant el disseny racional de les lacases"
 ---
 
-# **Un anàlisi *in silico* de determinants de termoestabilitat de la lacases per a la millora del seu disseny racional**
+# **Un anàlisi *in silico* de determinants de termoestabilitat de les lacases per a la millora del seu disseny racional**
 
 Benvinguts a la pàgina web per a aquest treball final de grau! 
 
