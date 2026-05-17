@@ -1,9 +1,11 @@
 main:
-  - title: "Abstract"
+  - title: "<i>Abstract</i>"
     url: /abstract/
-  - title: "Software"
+  - title: "Programari"
     url: /software/
-  - title: "Methods"
+  - title: "Mètodes"
     url: /methods/
-  - title: "Results"
+  - title: "Resultats"
     url: /results/
+  - title: "EN"
+    url: https://adrichs.github.io/TFG-a_salarich/

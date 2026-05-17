@@ -1,5 +1,5 @@
 title: TFG - A. Salarich 
-description: Finding the properties that differentiate thermostable laccases for their modification and application in bioremediation. 
+description: Identificació de les propietats que diferencien les lacases termostables per a la seva modificació i aplicació en bioremediació. 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme

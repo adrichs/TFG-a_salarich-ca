@@ -1,61 +1,60 @@
 ---
 layout: splash
-title: "Bachelor's thesis - Adrià Salarich"
+title: "Treball Final de Grau - Adrià Salarich"
 header: 
   overlay_image: /assets/images/splash.jpg
   overlay_filter: 0.15
   caption: "<i>Bacillus subtilis</i> CotA"
   actions:
-    - label: "Read the Abstract"
+    - label: "Llegeix l'<i>Abtsract</i>"
       url: /abstract/
-    - label: "GitHub Repository"
+    - label: "Repositori a GitHub"
       url: https://github.com/adrichs/TFG-a_salarich
-excerpt: "Improving laccase rational engineering"
+excerpt: "Millorant el disseny racional de les lacases"
 ---
 
-# **An *in silico* analysis of laccase thermostability determinants for the improvement of rational enzyme engineering**
+# **Un anàlisi *in silico* de determinants de termoestabilitat de la lacases per a la millora del seu disseny racional**
 
-Welcome to project website for this bachelor's thesis! 
+Benvinguts a la pàgina web per a aquest treball final de grau! 
 
-**Laccases** are enzymes that are widely distributed in nature, 
-capable of degrading a wide range of substrates. Thanks to this 
-property, they could be incredibly useful in ***bioremediation***. 
+Les **lacases** son enzims àmpliament distribuits a la natura, capaços de degradar un gran ventall de substrats. Gràcies a aquesta propietat, poden ser extremadament útils en ***bioremediació***. 
 
-> ######  ***What is bioremediation?***
-Bioremediation refers to the treatment of different contaminants through the
-use of microorganisms or the enzymes they produce, capable of degrading these
-pollutants into less harmful compounds. 
+> ######  ***Què és la bioremediació?***
+La bioremediació fa referència al tractament de diferents contaminants mitjançant
+l'ús de microorganismes o els enzims que produeixen, capaços de degradar aquests
+contaminants en compostos menys nocius.
 
-Unfortunately, many laccases are not very heat-resistant, which 
-restricts their practical application. For this reason, this project 
-set out to find what differentiates laccases with this property on a 
-structural and physicochemical level.
+Malauradament, moltes lacases no són gaire resistents a la calor, cosa que
+restringeix la seva aplicació pràctica. Per aquest motiu, aquest projecte
+es va proposar trobar allò que diferencia les lacases amb aquesta propietat
+a nivell estructural i fisicoquímic.
 
-To achieve this, thermostable and non-thermostable laccases were selected 
-from different databases, aligned, and compared using statistical tests 
-and the Kullback-Leibler divergence. 
 
-> ###### ***What is the Kullback-Leibler divergence?***
-The Kullback-Leibler divergence is a mathematical measure of how different 
-two probability distributions are from one another. In the context of this 
-project, it was used to compare the frequency of each of the 20 amino 
-acids at equivalent positions between thermostable and non-thermostable 
-laccases. A higher Kullback-Leibler divergence value at a given position 
-indicates that the two groups of laccases tend to use different amino 
-acids there, making it a useful tool for identifying the positions 
-that differ most between thermostable and non-thermostable enzymes. 
+Per aconseguir-ho, es van seleccionar lacases termostables i no termostables
+de diferents bases de dades, es van alinear les seves seqüències i es van comparar mitjançant tests
+estadístics i la divergència de Kullback-Leibler.
 
-Through these tests, the project uncovered that thermostable and 
-non-thermostable laccases are really quite similar on the whole, but
-variations in how they use specific amino acids at given positions 
-reveal that thermostability may be determined by a small number of key 
-locations in the protein structure rather than by widespread differences 
-in composition. Many of these positions are found in flexible regions 
-of the protein, such as loops connecting more rigid structural elements, 
-suggesting that thermostable laccases may achieve their stability by 
-locking down regions that would otherwise move too freely at high 
-temperatures.
+> ###### ***Què és la divergència de Kullback-Leibler?***
+La divergència de Kullback-Leibler és una mesura matemàtica de com de diferents
+són dues distribucions de probabilitat entre si. En el context d'aquest
+projecte, es va utilitzar per comparar la freqüència de cadascun dels 20
+aminoàcids en posicions equivalents entre lacases termostables i no termostables.
+Un valor més elevat de la divergència de Kullback-Leibler en una posició determinada
+indica que els dos grups de lacases tendeixen a utilitzar aminoàcids diferents
+en aquella posició, la qual cosa la converteix en una eina útil per identificar
+les posicions que més difereixen entre enzims termostables i no termostables.
 
-Identifying these positions is the first step toward engineering 
-laccases that are more thermostable and, therefore, more **useful** 
-in real-world bioremediation applications.
+A través d'aquests tests, el projecte va descobrir que les lacases termostables i
+no termostables són en general molt similars, però
+les variacions en l'ús d'aminoàcids específics en posicions concretes
+revelen que la termostabilitat pot estar determinada per un petit nombre de
+localitzacions clau en l'estructura proteica, més que per diferències
+generalitzades en la composició. Moltes d'aquestes posicions es troben en regions
+flexibles de la proteïna, com ara els bucles que connecten elements estructurals
+més rígids, cosa que suggereix que les lacases termostables poden assolir
+la seva estabilitat fixant regions que d'altra manera es mourien massa lliurement
+a temperatures elevades.
+
+La identificació d'aquestes posicions és el primer pas cap a l'enginyeria de
+lacases més termostables i, per tant, més **útils**
+en aplicacions reals de bioremediació.

@@ -3,8 +3,26 @@ layout: single
 title: "Abstract"
 permalink: /abstract/
 ---
+Les lacases (EC:1.10.3.2) són enzims de la família de les oxidases multicupre
+capaços de degradar una àmplia gamma de substrats utilitzant l'oxigen com a
+acceptor final d'electrons i produint aigua com a subproducte de la reacció.
+Gràcies a aquesta característica, són eines prometedores en el camp de la
+bioremediació. No obstant això, l'aplicació de les lacases en procediments
+a gran escala es veu dificultada per la baixa termostabilitat de molts d'aquests
+enzims, una propietat els determinants moleculars de la qual encara no han estat
+completament caracteritzats. Per tant, l'objectiu d'aquest projecte va ser
+analitzar lacases termostables i no termostables per elucidar les seves
+diferències fisicoquímiques i identificar els residus clau que contribueixen
+a la termostabilitat. Per aconseguir-ho, es van construir alineaments múltiples
+de seqüències de lacases termostables i no termostables i es van analitzar
+mitjançant tests estadístics i la divergència de Kullback-Leibler. L'anàlisi
+va revelar un alt grau de similitud global entre els dos grups d'enzims, cosa
+que suggereix que la termostabilitat està determinada principalment per patrons
+de conservació locals. Utilitzant la divergència de Kullback-Leibler i
+l'estructura de la CotA de *Bacillus subtilis* com a model, es van identificar
+diverses posicions discriminants que es van interpretar estructuralment, revelant
+patrons de conservació amb potencial per ser utilitzats en el disseny racional
+dirigit de lacases per augmentar la seva termostabilitat.
 
-Laccases (EC:1.10.3.2) are enzymes of the multi-copper oxidase family capable of degrading a wide range of substrates using oxygen as the final electron acceptor and producing water as a by-product of the reaction. Owing to this characteristic, they are promising tools in the field of bioremediation. However, the application of laccases in large-scale procedures is hindered by the low thermostability of many of these enzymes, a property whose molecular determinants remain to be fully characterised. Therefore, the aim of this project was to analyse thermostable and non-thermostable laccases to elucidate their physicochemical differences and identify key residues contributing to thermostability. To achieve this, multiple-sequence alignments of thermostable and non-thermostable laccases were constructed and analysed through statistical tests and the Kullback-Leibler divergence. The analysis revealed a high degree of global similarity between the two groups of enzymes, suggesting that thermostability is mostly determined by local conservation patterns. Using the Kullback-Leibler divergence and *Bacillus subtilis* CotA structure as a model, several discriminating positions were identified and structurally interpreted, revealing conservation patterns with a potential to be used in the targeted rational design of laccases to increase their thermostability. 
-
-**Keywords:** bacterial laccase, thermostability, bioremediation, rational engineering, multiple-sequence alignment (MSA)
+**Paraules clau:** lacasa bacteriana, termostabilitat, bioremediació, enginyeria racional, alineament múltiple de seqüències (MSA)
 {: .notice}

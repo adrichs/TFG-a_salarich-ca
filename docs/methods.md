@@ -1,28 +1,48 @@
 ---
 layout: single
-title: "Methods"
+title: "Mètodes"
 permalink: /methods/
 ---
 
-Thermostable and non-thermostable laccases were collected from UniProt, 
-NCBI and BRENDA using the filters these databases provide. 
-The protein sequences were downloaded in FASTA format using a bash 
-script.
+Les lacases termostables i no termostables es van recopilar de UniProt,
+NCBI i BRENDA utilitzant els filtres que proporcionen aquestes bases de dades.
+Les seqüències proteiques es van descarregar en format FASTA mitjançant un script
+de bash.
 
-To reduce sequence redundancy within the groups, the sequences were 
-clustered using CD-HIT into smaller representative groups.
+Per reduir la redundància de seqüències dins dels grups, les seqüències es van
+agrupar amb CD-HIT en grups representatius més petits.
 
-Multiple sequence alignments of thermostable and non-thermostable 
-laccases were then constructed using MAFFT. To improve their 
-quality and downstream usability, the alignments were trimmed with trimAl.
+A continuació, es van construir alineaments múltiples de seqüències de lacases
+termostables i no termostables utilitzant MAFFT. Per millorar-ne la qualitat
+i la usabilitat posterior, els alineaments es van retallar amb trimAl.
 
-The solvent accessibility of each residue in the B. subtilis CotA structure (PDB: 1GSK) was calculated using FreeSASA. Residues were classified as buried or solvent-accessible based on a 20% relative solvent accessibility threshold and exported from ChimeraX.
+L'accessibilitat al solvent de cada residu en l'estructura de la CotA de
+B. subtilis (PDB: 1GSK) es va calcular amb FreeSASA. Els residus es van
+classificar com a soterrats o accessibles al solvent en funció d'un llindar
+d'accessibilitat relativa al solvent del 20% i es van exportar des de ChimeraX.
 
-> ##### ***What is solvent accessibility?***
-> Solvent accessibility measures how exposed a given amino acid is to the surrounding water molecules. It is expressed as a percentage of the maximum possible exposure for that amino acid — a value close to 0% means the residue is deeply buried inside the protein, while a value close to 100% means it is fully exposed on the surface. This distinction is important because buried and surface residues play very different roles in protein structure and stability.
+> ##### ***Què és l'accessibilitat al solvent?***
+> L'accessibilitat al solvent mesura el grau d'exposició d'un aminoàcid determinat
+> a les molècules d'aigua del seu entorn. S'expressa com a percentatge de l'exposició
+> màxima possible per a aquell aminoàcid — un valor proper al 0% significa que el
+> residu es troba profundament soterrat dins la proteïna, mentre que un valor proper
+> al 100% indica que està completament exposat a la superfície. Aquesta distinció és
+> important perquè els residus soterrats i els de superfície tenen papers molt
+> diferents en l'estructura i l'estabilitat de la proteïna.
 
-Position Specific Scoring Matrices (PSSMs) were generated from the trimmed alignments using goalign. Using CotA as a reference, the PSSM rows corresponding to buried and solvent-accessible residues were extracted separately for both datasets using a custom Python script.
+Les matrius de puntuació específiques de posició (PSSM) es van generar a partir dels
+alineaments retallats utilitzant goalign. Prenent CotA com a referència, les files
+de la PSSM corresponents als residus enterrats i accessibles al solvent es van
+extreure per separat per a ambdós conjunts de dades mitjançant un script de Python
+personalitzat.
 
-Three complementary analyses were then applied to compare the two groups. Amino acid group enrichment was assessed using Chi-squared tests, physicochemical properties were compared using Student's t-test and Mann-Whitney U tests, and the Kullback-Leibler divergence was used to identify the positions that differ most between thermostable and non-thermostable laccases.
+Es van aplicar tres anàlisis complementàries per comparar els dos grups.
+L'enriquiment de grups d'aminoàcids es va avaluar mitjançant tests de Chi-quadrat,
+les propietats fisicoquímiques es van comparar amb el test t de Student i el test
+de Mann-Whitney U, i la divergència de Kullback-Leibler es va utilitzar per
+identificar les posicions que més difereixen entre lacases termostables i no
+termostables.
 
-The most discriminating positions were mapped onto the 1GSK structure using ChimeraX and their structural context was examined to interpret their potential role in thermostability.
+Les posicions més discriminants es van cartografiar sobre l'estructura 1GSK
+mitjançant ChimeraX i el seu context estructural es va examinar per interpretar
+el seu possible paper en la termostabilitat.
