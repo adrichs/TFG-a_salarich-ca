@@ -17,17 +17,17 @@ termostables i no termostables utilitzant MAFFT. Per millorar-ne la qualitat
 i la usabilitat posterior, els alineaments es van retallar amb trimAl.
 
 L'accessibilitat al solvent de cada residu en l'estructura de la CotA de
-B. subtilis (PDB: 1GSK) es va calcular amb FreeSASA. Els residus es van
-classificar com a soterrats o accessibles al solvent en funció d'un llindar
+*B. subtilis* (PDB: 1GSK) es va calcular amb FreeSASA. Els residus es van
+classificar com a enterrats o accessibles al solvent en funció d'un llindar
 d'accessibilitat relativa al solvent del 20% i es van exportar des de ChimeraX.
 
 > ##### ***Què és l'accessibilitat al solvent?***
 > L'accessibilitat al solvent mesura el grau d'exposició d'un aminoàcid determinat
 > a les molècules d'aigua del seu entorn. S'expressa com a percentatge de l'exposició
-> màxima possible per a aquell aminoàcid — un valor proper al 0% significa que el
-> residu es troba profundament soterrat dins la proteïna, mentre que un valor proper
+> màxima possible per a aquell aminoàcid. Un valor proper al 0% significa que el
+> residu es troba profundament enterrat dins la proteïna, mentre que un valor proper
 > al 100% indica que està completament exposat a la superfície. Aquesta distinció és
-> important perquè els residus soterrats i els de superfície tenen papers molt
+> important perquè els residus enterrats i els de superfície tenen papers molt
 > diferents en l'estructura i l'estabilitat de la proteïna.
 
 Les matrius de puntuació específiques de posició (PSSM) es van generar a partir dels

@@ -6,9 +6,9 @@ permalink: /software/
 ---
 ## Programari i bases de dades
 ###### Obtenció de seqüències
-- **NCBI & UniProt** — bases de dades de proteïnes utilitzades per obtenir seqüències genòmiques i termòfiles
+- **NCBI & UniProt** — bases de dades de proteïnes utilitzades per obtenir seqüències genèriques i termoestables
 ###### Agrupament
-- **CD-HIT** — agrupa seqüències per similitud per reduir la redundància
+- **CD-HIT** — agrupa seqüències per similitud per reduir la redundància dins dels *datasets*
 ###### Alineament
 - **MAFFT** — eina d'alineament múltiple de seqüències
 ###### Retall
