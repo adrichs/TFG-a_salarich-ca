@@ -6,8 +6,10 @@ header:
   overlay_filter: 0.15
   caption: "<i>Bacillus subtilis</i> CotA"
   actions:
-    - label: "Llegeix l'<i>Abtsract</i>"
+    - label: "Llegir l'<i>Abtsract</i>"
       url: /abstract/
+    - label: "Llegir el manuscrit"
+      url: https://raw.githubusercontent.com/adrichs/TFG-a_salarich/main/docs/assets/TFG_Salarich_Soldevila_Adria.pdf
     - label: "Repositori a GitHub"
       url: https://github.com/adrichs/TFG-a_salarich
 excerpt: "Millorant el disseny racional de les lacases"

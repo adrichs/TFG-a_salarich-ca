@@ -26,3 +26,5 @@ dirigit de lacases per augmentar la seva termostabilitat.
 
 **Paraules clau:** lacasa bacteriana, termostabilitat, bioremediació, enginyeria racional, alineament múltiple de seqüències (MSA)
 {: .notice}
+
+[Llegir el manuscrit complet](https://raw.githubusercontent.com/adrichs/TFG-a_salarich/main/docs/assets/TFG_Salarich_Soldevila_Adria.pdf){: .btn .btn--info .btn--large}
