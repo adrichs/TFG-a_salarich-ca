@@ -9,7 +9,7 @@ header:
     - label: "Llegir l'<i>Abtsract</i>"
       url: /abstract/
     - label: "Llegir el manuscrit"
-      url: https://raw.githubusercontent.com/adrichs/TFG-a_salarich/main/docs/assets/TFG_Salarich_Soldevila_Adria.pdf
+      url: https://uab-my.sharepoint.com/:b:/g/personal/1665197_uab_cat/IQA3Q_uQgJb_SoF31QkDd5y8AXdQiLrdMdRt_EkfSGQ_z1s?e=0DN9iq
     - label: "Repositori a GitHub"
       url: https://github.com/adrichs/TFG-a_salarich
 excerpt: "Millorant el disseny racional de les lacases"
